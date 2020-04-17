@@ -1,0 +1,7 @@
+---
+applications:
+- name: nodetest
+  command: node app.js
+  buildpacks:
+    - nodejs_buildpack
+  memory: 128M
